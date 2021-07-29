@@ -1,3 +1,25 @@
 .form-container{
     border: 5px solid black;
+    border-radius: 5px;
+}
+
+.header-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    border: 10px dotted orange;
+}
+
+.footer-index{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+/*Output page*/
+.footer-output{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-top: 360px;
 }

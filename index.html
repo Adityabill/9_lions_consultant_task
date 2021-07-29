@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Registration form</title>
+        <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
+    </head>
+
+    <body>
+        <header>
+            <h1 class="center">Registration form</h1>
+        </header>
+
+        <section class="container form-container">
+        <form>
+            <label>First Name:</label>
+            <input type="text" name="fst_name" required><br>
+
+            <label>Last Name:</label>
+            <input type="text" name="lst_name" required><br>
+
+            <label>Email Address(Ex. somthing@example.com):</label>
+            <input type="email" name="email" required><br>
+
+            <label>Date of Birth(User must be atleast 18 years old):</label>
+            <input type="date" name="dob" required><br>
+
+            <label>Password(Password must be atleast 8 characters long with atleast 1 speacial character(Ex. Adi@1234)):</label>
+            <input type="password" name="psswd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*?[0-9])(?=.*?[!@#$%^&*+`~=?\|<>/]).{8,}" required><br>
+
+            <label>Confirm Password:</label>
+            <input type="password" name="cnfrm_psswd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*?[0-9])(?=.*?[!@#$%^&*+`~=?\|<>/]).{8,}" required><br>
+            <div class="center">
+            <input type="submit" class="btn" value="Submit" name="submit">
+        </div>
+        </form>
+    </section>
+
+
+    </body>
+</html>

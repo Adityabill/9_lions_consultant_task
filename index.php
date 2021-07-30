@@ -47,10 +47,10 @@ if(isset($_POST['submit'])){ //if submit button is pressed
             <div class="form-container">
         <form action="index.php" method="POST">  <!--Form-->
             <label>First Name:</label>
-            <input type="text" name="fst_name" id="fst_name" required><br>
+            <input type="text" name="fst_name" max="50" id="fst_name" required><br>
 
             <label>Last Name:</label>
-            <input type="text" name="lst_name" id="lst_name" required><br>
+            <input type="text" name="lst_name" max="50" id="lst_name" required><br>
 
             <label>Email Address(Ex. somthing@example.com):</label>
             <input type="email" name="email" id="email" required><br>
